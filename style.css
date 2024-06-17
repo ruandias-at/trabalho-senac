@@ -16,6 +16,7 @@ nav {
     background-color: blueviolet;
     width: 100vw;
     border-bottom: 6px solid rgba(0, 0, 0, 0.137);
+    z-index: 1000;
 }
 header {
     background-color: blueviolet;
