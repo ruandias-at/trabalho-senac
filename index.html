@@ -12,7 +12,6 @@
 <body>
     <header>
         <nav>
-            <h1>Trabalho Bootstrap</h1>
             <ul>
                 <li><a href="#part">Participantes</a></li>
                 <li><a href="#def">Definição</a></li>
@@ -22,7 +21,8 @@
                 <li><a href="#exs">Exemplos</a></li>
                 <li><a href="#conc">Conclusão</a></li>
             </ul>
-        </nav>
+        </nav><br><br><br><br>
+        <h1>Trabalho Bootstrap</h1>
     </header>
     <main>
         <section id="part">
@@ -42,7 +42,7 @@
         <section id="def">
             <h2>O que é o Bootstrap?</h2>
             <div class="imagens">
-                <img width="200px" src="imagens/bootstrap.png" alt="bootstrap">                
+                <img width="200px" src="imagens/bootstrap.png" alt="bootstrap" class="fluctuating-image">                
             </div>
             <article>
                 <p>Bootstrap é um framework de front-end popular para o desenvolvimento de sites e aplicações web responsivas e móveis. Criado pelo Twitter, ele fornece uma coleção de ferramentas e componentes pré-estilizados, facilitando o desenvolvimento de interfaces de usuário consistentes e atraentes.</p>
@@ -83,7 +83,7 @@
             <div class="caracteristicas">
                 <h3>Sobrecarga de Código</h3> 
                 <p>Bootstrap inclui muitos estilos e scripts que podem não ser necessários para todos os projetos. Isso pode resultar em arquivos maiores e, consequentemente, em tempos de carregamento mais longos, especialmente para projetos menores ou mais simples.</p>
-   
+
                 <h3>Falta de Originalidade</h3>
                 <p>Devido à popularidade do Bootstrap, muitos sites podem acabar tendo uma aparência semelhante, tornando difícil para um site se destacar visualmente sem customizações significativas.</p>
 
@@ -126,25 +126,25 @@
             <!--Twitter, LinkedIn, Spotify, Airbnb, Udemy, Duolingo, NASA e GitHub-->
             <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="imagens/twitter.jpg" class="d-block w-100" alt="twitter">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="imagens/linkedin.png" class="d-block w-100" alt="linkedin">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="imagens/spotify.png" class="d-block w-100" alt="spotify">
-                  </div>
+                    <div class="carousel-item active">
+                        <img src="imagens/twitter.jpg" class="d-block w-100" alt="twitter">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/linkedin.png" class="d-block w-100" alt="linkedin">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="imagens/spotify.png" class="d-block w-100" alt="spotify">
+                    </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
         </section>
 
         <section id="conc">
@@ -155,6 +155,7 @@
     <footer>
         <p>Site criado utilizando <strong>HTML</strong>,  <strong>CSS</strong> e o próprio <strong>Bootstrap</strong>.</p>
     </footer>
+    <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
