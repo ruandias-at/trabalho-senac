@@ -11,34 +11,22 @@ html {
 html, body {
     height: 100vh;
 }
-nav {
+menu {
     position: fixed;
     background-color: blueviolet;
     width: 100vw;
     border-bottom: 6px solid rgba(0, 0, 0, 0.137);
     z-index: 1000;
 }
-header {
-    background-color: blueviolet;
-    color: white;
-    text-align: center;
-    border-bottom: 6px solid rgba(0, 0, 0, 0.137);
-}
-header h1 {
-    position: inherit;
-    font-size: 4em;
-    padding: 30px;
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.377);
-}
-header a {
+menu a {
     text-decoration: none;
     color: white;
 }
-header a:hover {
+menu a:hover {
     color: rgb(57, 15, 57);
     transition-duration: .3s;
 }
-header ul {
+menu ul {
     list-style-type: none;
     display: flex;
     text-indent: 2em;
@@ -48,6 +36,19 @@ header ul {
     font-size: 1.4em;
     padding-top: 20px;
 }
+header {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    border-bottom: 6px solid rgba(0, 0, 0, 0.137);
+    padding-top: 70px;
+}
+header h1 {
+    font-size: 4em;
+    padding: 30px;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.377);
+}
+
 section {
     background-color: rgba(192, 192, 192, 0.116);
     width: 850px;
@@ -70,6 +71,7 @@ section p {
 .imagens {
     float: right;
 }
+/* Animação de flutuação no ícone do bootstrap */
 .fluctuating-image {
     animation: fluctuate 3s infinite;
 }

@@ -1,7 +1,7 @@
-//Abaixa um pouco mais quando estiver navegando
+//Abaixa um pouco mais quando estiver navegando pelos botões do nav
 document.addEventListener('DOMContentLoaded', () => {
-    const headerOffset = document.querySelector('nav').offsetHeight
-    const links = document.querySelectorAll('nav a')
+    const headerOffset = document.querySelector('menu').offsetHeight
+    const links = document.querySelectorAll('menu a')
 
     links.forEach(link => {
         link.addEventListener('click', (event) => {
