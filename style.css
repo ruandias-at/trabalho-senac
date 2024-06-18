@@ -90,6 +90,11 @@ section p {
     font-size: 1.5em;
     padding: 30px;
 }
+.carousel-item {
+    height: 400px;
+    justify-content: center;
+    width: auto;
+}
 footer {
     background-color: blueviolet;
     color: white;
