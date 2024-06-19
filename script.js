@@ -22,3 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
         })
     })
 })
+
+//Permite com que abra o menu em dispositvos menores
+document.getElementById('menu-icon').addEventListener('click', function() {
+    var menuList = document.getElementById('menu-list')
+    if (menuList.style.display === 'flex' || menuList.style.display === 'block') {
+        menuList.style.display = 'none'
+    } else {
+        menuList.style.display = 'flex'
+    }
+})

@@ -189,3 +189,35 @@ footer {
         font-size: 0.9em;
     }
 }
+
+/* Ícone do menu */
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 2.4em;
+}
+
+/* Esconde o menu por padrão em dispositivos menores */
+@media (max-width: 768px) {
+    menu ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        column-count: 2;
+    }
+
+    menu ul a {
+        font-size: 1.4em;
+    }
+    .menu-icon {
+        display: block;
+    }
+    .menu-icon:hover {
+        color: rgb(57, 25, 87);
+        transition-duration: .2s;
+    }
+}
