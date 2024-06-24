@@ -79,6 +79,7 @@ section h2 {
 }
 
 section p {
+    text-align: justify;
     text-indent: 2em;
     padding: 10px;
     font-size: 1.1em;
